@@ -69,7 +69,7 @@ public class Telaidade extends JFrame {
 
         JLabel lblNewLabel_3 = new JLabel("");
         lblNewLabel_3.setHorizontalAlignment(SwingConstants.CENTER);
-        lblNewLabel_3.setIcon(new ImageIcon(getClass().getResource("/imagens/johnnybravo.png")));
+        lblNewLabel_3.setIcon(new ImageIcon("C:\\Users\\paulo\\Documents\\programação\\java\\exercicio\\sextaulaex\\johnnybravo.png"));
         lblNewLabel_3.setBounds(258, 41, 166, 175);
         contentPane.add(lblNewLabel_3);
 
@@ -84,7 +84,7 @@ public class Telaidade extends JFrame {
                 lblidade.setText(Integer.toString(id));
             }
         });
-        btnCalc.setIcon(new ImageIcon(getClass().getResource("/imagens/calculadora.png"))); 
+        btnCalc.setIcon(new ImageIcon("C:\\Users\\paulo\\Documents\\programação\\java\\exercicio\\sextaulaex\\calculadora.png")); 
         btnCalc.setBounds(71, 109, 147, 57);
         contentPane.add(btnCalc);
     }
